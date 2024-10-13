@@ -1,0 +1,21 @@
+#profiletext{
+    display: inline-block;
+    text-transform: capitalize;
+
+}
+body{
+   
+    background-image: url("background image.avif");
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    
+}
+.profile{
+    background-color: rgba(6, 6, 16, 0.699);
+    text-align: center;
+    color: darkkhaki;
+    margin-top: 200px;
+    border: 2px solid darkkhaki;
+    border-radius: 20px;
+}
