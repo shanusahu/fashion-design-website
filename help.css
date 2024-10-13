@@ -1,0 +1,12 @@
+.help{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 139, 139, 0.482);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    text-transform: capitalize;
+}
+.helptext{
+   font-size: 30px;
+}

@@ -1,0 +1,437 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.menubar{
+    height: 50px;
+    
+    padding: 20px;
+    background-image: url("menubar3.jfif");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid black;
+    
+   
+}
+.logo{
+    display: inline-block;
+    margin-left: 0px;
+    position: relative;
+    top: 0px;
+
+}
+.menu{
+    display: inline-block;
+     text-decoration: solid;
+    margin-left: 200px;
+}
+a{
+    color: darkkhaki;
+}
+.discount{
+    
+    height: 50px;
+    background-image: url("background for nav.jpg");
+    background-size:contain;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align:center ;
+    padding: 20px;
+    align-content: center;
+
+   
+}
+.discounttext1{
+   width: 200px;
+   margin-left: 300px;
+   background-color: bisque;
+}
+.discounttext2{
+    margin-left: 400px;
+    background-color: antiquewhite;
+}
+.discounttext3{
+    margin-left: 400px;
+    background-color: antiquewhite;
+}
+.brandimage{
+height: 600px;
+   background-image: url("background image.avif");
+   background-size: cover;
+} 
+.deals{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.deals1{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.deals2{
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+   
+    height: 300px;
+    
+   
+}
+.dealsimg1{
+ height: 300px;
+ width: 200px;
+ background-image: url("casaul collections.jfif");
+ background-size: cover;
+ margin-right: 5px;
+ margin-left: 5px;
+ border-radius: 8px;
+}
+.dealsimg2{
+    height: 300px;
+    width: 200px;
+    background-image: url("footwear.jfif");
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+.dealsimg3{
+    height: 300px;
+    width: 200px;
+    background-image: url("graceful.jfif");
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+.dealsimg4{
+    height: 300px;
+    width: 200px;
+    background-image: url("sneakers.jfif");
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+.dealsimg5{
+    height: 300px;
+    width: 200px;
+    background-image: url("cool guy.jfif");
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+   
+} 
+.category{
+    top-margin: 100px;
+}
+.text1{
+    background-color: aliceblue;
+    margin-top: 250px;
+    text-align: center;
+}
+.categories1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 50px;
+   
+}
+.cate1{
+    height: 300px;
+    width: 250px;
+    background-image: url("jacket.jfif");
+   margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.cate2{
+    height: 300px;
+    width: 250px;
+    background-image: url("jeans.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}.cate3{
+    height: 300px;
+    width: 250px;
+    background-image: url("kurta.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}.cate4{
+    height: 300px;
+    width: 250px;
+    background-image: url("shirt.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}.cate5{
+    height: 300px;
+    width: 250px;
+    background-image: url("shoes.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}.cate6{
+    height: 300px;
+    width: 250px;
+    background-image: url("sneakers.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.womens{
+    margin-top: 100px;
+    font-size: 20px;
+}
+.womencoll{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 50px;
+   
+}
+.women1{
+    height: 300px;
+    width: 250px;
+    background-image: url("saree.jfif");
+   margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.women2{
+    height: 300px;
+    width: 250px;
+    background-image: url("lehnga.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.women3{
+    height: 300px;
+    width: 250px;
+    background-image: url("suit.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.women4{
+    height: 300px;
+    width: 250px;
+    background-image: url("bags.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.women5{
+    height: 300px;
+    width: 250px;
+    background-image: url("saree.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.women6{
+    height: 300px;
+    width: 250px;
+    background-image: url("footwear1.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.kidscoll{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 100px;
+   
+}
+.kids1{
+    height: 300px;
+    width: 250px;
+    background-image: url("baby boy.jfif");
+   margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.kids2{
+    height: 300px;
+    width: 250px;
+    background-image: url("baby boy1.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.kids3{
+    height: 300px;
+    width: 250px;
+    background-image: url("baby cloths.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.kids4{
+    height: 300px;
+    width: 250px;
+    background-image: url("baby girl2.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.kids5{
+    height: 300px;
+    width: 250px;
+    background-image: url("baby.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.kids6{
+    height: 300px;
+    width: 250px;
+    background-image: url("other accesories.jfif");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.text2{
+    background-color: aliceblue;
+  text-align: center;
+    margin-top: 230px;
+   
+}
+.footer{
+   
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    background-color: rgb(248,248,248);
+}
+.footerheader{
+    height: 40px;
+    display: flex;
+    margin-top: 50px;
+   
+    width: 1150px;
+}
+.footermain{
+ margin-top: 50px;
+ width: 1150px;
+ height: 300px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+.footerend{
+    height: 35px;
+    width: 1150px;
+
+}
+.footerlogo{
+    width: 135px;
+    position: absolute;
+    left: 200px;
+}
+.conlang{
+    width: 260px;
+    position: absolute;
+    right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.main1{
+    width: 175px;
+    height:200px;
+    text-transform: capitalize;
+  
+}
+.main2{
+    width: 185px;
+    height: 200px;
+    text-transform: capitalize;
+   
+}
+.main3{
+    width: 245px;
+    height: 220px;
+    text-transform: capitalize;
+   
+}
+.main4{
+    width: 165px;
+    height: 220px;
+    text-transform: capitalize;
+}
+.main5{
+    height: 220px;
+    width: 180px;
+    text-transform: capitalize;
+   
+}
+p{
+    color: #696969;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    text-transform: capitalize;
+
+}
+.footerend{
+    color: #4f4f4f;
+    margin-top: 23px;
+    margin-bottom: 13px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+.india{
+    text-transform: capitalize;
+    color: #1c1c1c;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+    box-shadow: rgba(28,28,28,0.08) 0px 1.42623px 2.85246px;
+    border-radius: 10px;
+    border: 1px solid rgb(232,232,232);
+    height: 35px;
+    width: 115px;
+    padding: 3px 7px;
+    
+}
+.english{
+    text-transform: capitalize;
+    color: #1c1c1c;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+    box-shadow: rgba(28,28,28,0.08) 0px 1.42623px 2.85246px;
+    border-radius: 10px;
+    border: 1px solid rgb(232,232,232);
+}
